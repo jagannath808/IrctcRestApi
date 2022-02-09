@@ -62,4 +62,9 @@ public class PassengerController {
 		return "jagannat+ kundu";
 		
 	}
+	@GetMapping(value="/hello")
+	public String getTicket(){
+		return "jagannat+ Bankura";
+		
+	}
 }
