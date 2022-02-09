@@ -56,4 +56,15 @@ public class PassengerController {
 		return new ResponseEntity<Passenger>(passenger,HttpStatus.OK);
 		
 	}
+	
+	@GetMapping(value="/hi")
+	public String getTicketInfo(){
+		return "jagannat+ kundu";
+		
+	}
+	@GetMapping(value="/hello")
+	public String getTicket(){
+		return "jagannat+ Bankura";
+		
+	}
 }
