@@ -59,7 +59,7 @@ public class PassengerController {
 	
 	@GetMapping(value="/hi")
 	public String getTicketInfo(){
-		retrun "jagannat"
+		return "jagannat+ kundu";
 		
 	}
 }
